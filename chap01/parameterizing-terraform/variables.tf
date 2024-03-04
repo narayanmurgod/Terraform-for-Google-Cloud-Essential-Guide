@@ -1,6 +1,7 @@
 variable "project_id" {
   type        = string
   description = "ID of the Google Project"
+  default = "cts05-murgod"
 }
 
 variable "region" {
